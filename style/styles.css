@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.container-fluid {
+  background-image: url(/style/img/ocean.eyes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+table {
+  font-size: 20px;
+}
+
+table th {
+  border: 1px solid;
+}
+
+table td {
+  border: 1px solid;
+}
+/*# sourceMappingURL=styles.css.map */
