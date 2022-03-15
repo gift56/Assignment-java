@@ -1,7 +1,7 @@
-// alert("Famous Books And Authors List");
-// alert("Welcome to My World of Books & Authors: Questions");
+alert("Famous Books And Authors List");
+alert("Welcome to My World of Books & Authors: Questions");
 
-// let books = prompt("Enter BookName: "), auth1 = prompt("Enter AuthorName: "), Book2 = prompt("Please input your Best Books"), Auth2 = prompt("Please input your Best Author"), text = prompt("Verify Bookname"), writer = prompt("Please verify Authors Name");
+let books = prompt("Enter BookName: "), auth1 = prompt("Enter AuthorName: "), Book2 = prompt("Please input your Best Books"), Auth2 = prompt("Please input your Best Author"), text = prompt("Verify Bookname"), writer = prompt("Please verify Authors Name");
 
 
 const data = {
@@ -22,4 +22,4 @@ book3.innerHTML = text;
 auto.innerHTML = data[text];
 
 console.log(data);
-// alert("Looking Good");
+alert("Looking Good");
