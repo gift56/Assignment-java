@@ -21,4 +21,10 @@ button {
   width: 30%;
   font-size: 20px;
 }
+
+@media screen and (max-width: 1200px) {
+  button {
+    width: 51%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
