@@ -5,6 +5,5 @@
 
 You can view my work on the link below:
 
-<form target="_blank">
-   <a href="https://object-arrays-js.netlify.app/">Object & Arrays</a>
-</form>
+
+   <a href="https://object-arrays-js.netlify.app/"  target="_blank">Object & Arrays</a>
