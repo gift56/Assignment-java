@@ -65,8 +65,12 @@ function myBtnunshift() {
   unshift.innerHTML = list;
 }
 function myBtnsplice() {
-  list.splice(7, 8, "Life is Good", "Mikel");
+  list.splice(7, 8, "Memories", "Prosper");
   spliced.innerHTML = list;
+}
+function myBtnslice() {
+  list.splice(7, 8);
+  sliced.innerHTML = list;
 }
 
 
