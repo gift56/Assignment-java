@@ -2,7 +2,7 @@ alert("Famous Books And Authors List");
 alert("Welcome to My World of Books & Authors: Questions");
 
 let books = prompt("Enter BookName: "), auth1 = prompt("Enter AuthorName: "), Book2 = prompt("Please input your Best Books"), Auth2 = prompt("Please input your Best Author"), text = prompt("Verify Bookname"), writer = prompt("Please verify Authors Name");
-alert ("Welcome to Array question on Books & Authors: Questions");
+alert("Welcome to Array question on Books & Authors: Questions");
 let Ar_book = prompt("Type Book-Name Here: "), auhor = prompt("Type Authors-Name Here: "), mile = prompt("Input Book id here: "), amile = prompt("Input Authors details here: "), last = prompt("Confirm Book details here: "), alast = prompt("Confirm Authors Name here: ");
 
 const data = {
@@ -45,12 +45,33 @@ Abuk3.innerHTML = last;
 Anto.innerHTML = list[5];
 
 function myBtn() {
-    list.sort();
-    document.getElementById("demo").innerHTML = list;
-  }
+  list.sort();
+  demo.innerHTML = list;
+}
+function myBtnpop() {
+  list.pop();
+  pop.innerHTML = list;
+}
+function myBtnpush() {
+  list.push("Ghostfrink");
+  push.innerHTML = list;
+}
+function myBtnshift() {
+  list.shift();
+  shift.innerHTML = list;
+}
+function myBtnunshift() {
+  list.unshift("Killer Frost");
+  unshift.innerHTML = list;
+}
+function myBtnsplice() {
+  list.splice(7, 8, "Life is Good", "Mikel");
+  spliced.innerHTML = list;
+}
+
 
 console.log(list.pop());
-console.log(list.push("Ghost:frink"));
+console.log(list.push("Ghostfrink"));
 console.log(list.shift());
 console.log(list.unshift("Kelvin Fredge"));
 console.log(list.splice(5, 6, "Life is Good", "Mikel"));
