@@ -11,7 +11,7 @@ data[books] = auth1;
 data[Book2] = Auth2;
 data[text] = writer;
 
-// this is where ic changed the html files
+// this is where i changed the html files with js codes based on Object
 
 book1.innerHTML = books;
 author1.innerHTML = data[books];
@@ -34,6 +34,7 @@ list[3] = amile;
 list[4] = last;
 list[5] = alast;
 
+// this is where i changed the html files with js codes based on Arrays
 
 Abook1.innerHTML = Ar_book;
 Actor1.innerHTML = list[1];
