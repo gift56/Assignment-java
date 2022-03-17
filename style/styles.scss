@@ -19,6 +19,17 @@ button{
     width: 30%;
     font-size: 20px;
     @media screen and (max-width:1200px) {
-        width: 51%;
+        width: 98%;
+    }
+}
+.splice{
+    width: 23%;
+    @media screen and (max-width:1200px) {
+        width: 88%;
+    }
+}
+.h3{
+    @media screen and (max-width:1000px) {
+        font-size: 18px!important;
     }
 }

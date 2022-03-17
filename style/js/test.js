@@ -53,7 +53,7 @@ function myBtnpop() {
   pop.innerHTML = list;
 }
 function myBtnpush() {
-  list.push("Ghostfrink");
+  list.push("Ghost");
   push.innerHTML = list;
 }
 function myBtnshift() {
@@ -69,7 +69,7 @@ function myBtnsplice() {
   spliced.innerHTML = list;
 }
 function myBtnslice() {
-  list.splice(7, 8);
+  list.slice();
   sliced.innerHTML = list;
 }
 
@@ -78,8 +78,8 @@ console.log(list.pop());
 console.log(list.push("Ghostfrink"));
 console.log(list.shift());
 console.log(list.unshift("Kelvin Fredge"));
-console.log(list.splice(5, 6, "Life is Good", "Mikel"));
-console.log(list.slice(3, 2));
+console.log(list.splice());
+console.log(list.slice());
 console.log(list.sort());
 console.log(list);
 

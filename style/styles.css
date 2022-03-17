@@ -24,7 +24,23 @@ button {
 
 @media screen and (max-width: 1200px) {
   button {
-    width: 51%;
+    width: 98%;
+  }
+}
+
+.splice {
+  width: 23%;
+}
+
+@media screen and (max-width: 1200px) {
+  .splice {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .h3 {
+    font-size: 18px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
